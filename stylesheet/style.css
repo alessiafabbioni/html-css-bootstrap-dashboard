@@ -10,3 +10,20 @@
     font-family: 'PT Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
+.ms-container{
+    padding-top: 68px;
+    height: 100vh;
+    width: auto;
+}
+
+.ms-menu {
+    padding: 10px;
+    color: white;
+    background-color: #0F263C;
+}
+
+.ms-menu i{
+    padding-right: 3px;
+    padding-top: 10px;
+}
