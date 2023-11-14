@@ -48,23 +48,197 @@
     </header>
 
     <main>
-        <div class="container-xxl">
-            <div class="row ms-container">
-                <div class="col-2 col-md-1 ms-menu">
-                    <div class="d-md-block">
-                        <!-- Qualcosa non va-->
-                        <div>
-                            <span><small><i class="fa-solid fa-house"></i> Home</small></span>
-                        </div>
-                        <div>
-                            <span><small><i class="fa-solid fa-chart-simple"></i> Stats</small></span>
-                        </div>
-                        <div>
-                            <span><small><i class="fa-solid fa-signal"></i> Signals</small></span>
+        <div class="container-xxl ms-container">
+            
+            <!-- Barra a sinistra -->
+            <div class="ms-menu">
+                <div>
+                    <span><small><i class="fa-solid fa-house"></i> Home</small></span>
+                </div>
+                <div>
+                    <span><small><i class="fa-solid fa-chart-simple"></i> Stats</small></span>
+                </div>
+                <div>
+                    <span><small><i class="fa-solid fa-signal"></i> Signals</small></span>
+                </div>
+            </div>
+
+            <!-- Main block -->
+            <div class="container-fluid ms-grid">
+                <div class="row ms-student">
+                    <div class="col-6">
+                        <h1>Boolean</h1>
+                    </div>
+                    <div class="col-3">
+                    </div>
+                    <div class="col-3">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="grid-margin stretch-card ms-card">
+                            <div class="card">
+                              <div class="card-body">
+                                <h4 class="card-title">Prossime classi</h4>
+                                <div class="table-responsive">
+                                  <table class="table ms-table">
+                                    <thead>
+                                      <tr>
+                                        <th colspan="5">Nome</th>
+                                        <th>Data di inizio</th>
+                                        <th>ROI</th>
+                                        <th>Stato</th>
+                                        <th>Azioni</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td colspan="5"><i class="ms-code fa-solid fa-code"></i>Classe 75</td>
+                                        <td colspan="1">15 Febbraio 2021</td>
+                                        <td colspan="1">20%</td>
+                                        <td colspan="1"><span class="badge rounded-pill text-bg-success">Done</span></td>
+                                        <td colspan="1" class="ms-symbols"><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i></td>
+                                      </tr>
+                                      <tr>
+                                        <td colspan="5"><i class="ms-code fa-solid fa-code"></i>Classe 75</td>
+                                        <td colspan="1">15 Febbraio 2021</td>
+                                        <td colspan="1">20%</td>
+                                        <td colspan="1"><span class="badge rounded-pill text-bg-success">Done</span></td>
+                                        <td colspan="1" class="ms-symbols"><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i></td>
+                                      </tr>
+                                      <tr>
+                                        <td colspan="5"><i class="ms-code fa-solid fa-code"></i>Classe 75</td>
+                                        <td colspan="1">15 Febbraio 2021</td>
+                                        <td colspan="1">20%</td>
+                                        <td colspan="1"><span class="badge rounded-pill text-bg-success">Done</span></td>
+                                        <td colspan="1" class="ms-symbols"><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i></td>
+                                      </tr>
+                                      <tr>
+                                        <td colspan="5"><i class="ms-code fa-solid fa-code"></i>Classe 75</td>
+                                        <td colspan="1">15 Febbraio 2021</td>
+                                        <td colspan="1">20%</td>
+                                        <td colspan="1"><span class="badge rounded-pill text-bg-success">Done</span></td>
+                                        <td colspan="1" class="ms-symbols"><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i></td>
+                                      </tr>
+                                      <tr>
+                                        <td colspan="5"><i class="ms-code fa-solid fa-code"></i>Classe 75</td>
+                                        <td colspan="1">15 Febbraio 2021</td>
+                                        <td colspan="1">20%</td>
+                                        <td colspan="1"><span class="badge rounded-pill text-bg-success">Done</span></td>
+                                        <td colspan="1" class="ms-symbols"><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i></td>
+                                      </tr>
+                                      <tr>
+                                        <td colspan="5"><i class="ms-code fa-solid fa-code"></i>Classe 75</td>
+                                        <td colspan="1">15 Febbraio 2021</td>
+                                        <td colspan="1">20%</td>
+                                        <td colspan="1"><span class="badge rounded-pill text-bg-success">Done</span></td>
+                                        <td colspan="1" class="ms-symbols"><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="grid-margin stretch-card ms-card">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h4>Frequently Asked Questions</h4>
+                                    </div>
+                                    <div class="accordion" id="faq">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                              Come aggiungere un nuovo studente?
+                                            </button>
+                                          </h2>
+                                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                            <div class="accordion-body">
+                                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                              Come posso accedere alle informazioni del mio account?
+                                            </button>
+                                          </h2>
+                                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                              Posso usare questa dashboard da mobile?
+                                            </button>
+                                          </h2>
+                                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                <!-- Main app -->
-                <div class="col-10">
+                    <div class="col-4">
+                        <div class="grid-margin stretch-card ms-card">
+                            <div class="card ms-todo">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h4>To Do</h4>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                          Kickoff nuove classi
+                                        </label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                        <label class="form-check-label" for="defaultCheck2">
+                                          Lezione Bootstrap
+                                        </label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                        <label class="form-check-label" for="defaultCheck2">
+                                          Controllare username Github
+                                        </label>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4>Frequently Asked Questions</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+            
+                    
 
 
 

@@ -11,19 +11,76 @@
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+    background-color: white;
+}
+
 .ms-container{
     padding-top: 68px;
     height: 100vh;
     width: auto;
+    display: flex;
+    flex-direction: row;
 }
 
 .ms-menu {
-    padding: 10px;
     color: white;
     background-color: #0F263C;
+    width: 100px;
+    height: 100%;
+    font-size: 12px;
 }
 
 .ms-menu i{
-    padding-right: 3px;
-    padding-top: 10px;
+    padding: 10px;
 }
+
+.ms-student{
+    background-color: #1F72E8;
+    min-height: 100px;
+    width: 100%;
+    color: white;
+}
+
+.ms-grid {
+    height: 100vh;
+    width: calc(100vw - 100px);
+}
+
+.ms-table {
+    font-size: 12px;
+}
+
+.ms-code {
+    background-color: #F26551;
+    padding: 5px;
+    border-radius: 100%;
+    color: white;
+    font-size: 12px;
+    margin-right: 3px;
+}
+
+.ms-symbols i{
+    color: #6C757D;
+    border-radius: 3px;
+    border:  #6C757D solid 1px;
+    padding: 5px;
+    margin: 0 2px;
+}
+
+.ms-title {
+    background-color: #F7F7F7;
+}
+
+.ms-card {
+    margin: 20px 0;
+}
+
+#faq {
+    font-size: 12px;
+}
+
+.ms-todo {
+    font-size: 12px;
+}
+
