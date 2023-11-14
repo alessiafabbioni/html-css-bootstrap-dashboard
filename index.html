@@ -15,8 +15,8 @@
     <header class="container-fluid fixed-top">
         <nav class="container-xxl">
             <div class="row py-3">
-                <div class="col-2">
-                    <img class="img-fluid" src="img 2/logo.svg" alt="logo">
+                <div class="col">
+                    <img class="img-fluid img-desktop" src="img 2/logo.svg" alt="logo">
                 </div>
                 <div class="col-8">
                     <div class="container">
@@ -30,17 +30,17 @@
                 </div>
                 <div class="col-2">
                     <div class="row">
-                        <div class="col">
+                        <div class="col grip-icon">
                             <i class="fa-solid fa-grip-lines"></i>
                         </div>
-                        <div class="col">
+                        <div class="col question-icon">
                             <i class="fa-solid fa-circle-question"></i>
                         </div>
-                        <div class="col">
+                        <div class="col ellipsis-icon">
                             <i class="fa-solid fa-ellipsis-vertical"></i>
                         </div>
                         <div class="col">
-                            <i class="fa-solid fa-bell" style="color: #ff0000;"></i>
+                            <i class="fa-solid fa-bell" style="color: #F26551;"></i>
                         </div>
                     </div>
                 </div>
@@ -65,17 +65,82 @@
 
             <!-- Main block -->
             <div class="container-fluid ms-grid">
-                <div class="row ms-student">
-                    <div class="col-6">
-                        <h1>Boolean</h1>
+                <div class="row ms-student flex-wrap">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="ms-boolean">
+                            <h1>Boolean</h1>
+                            <div>
+                                <span class="badge rounded-pill ms-pill">Piano blaze</span>
+                            </div>
+                        </div>
+                        <div class="ms-boolean">
+                            <span class="badge rounded-pill ms-pill">3 app</span>
+                            <i class="fa-solid fa-chevron-right"></i>
+                            <i class="fa-solid fa-chevron-right"></i>
+                            <span class="badge rounded-pill ms-pill">Boolean mobile app</span>
+                            <span class="badge rounded-pill ms-pill">Boolean web app </span>
+                            <span class="badge rounded-pill ms-pill">Boolean blog app</span>
+                        </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-12 col-sm-12 ms-boolean">
+                        <span>Studenti online negli ultimi 10 minuti</span>
+                        <h4>125</h4>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-12 col-sm-12 ms-boolean" id="ms-new">
+                        <span>Nuovo Studente</span>
+                        <button type="button" class="btn btn-outline-light ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">+</button>
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="row">
+                                    <div class="mb-3 col">
+                                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                    </div>
+                                    <div class="mb-3 col">
+                                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="mb-3 col">
+                                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                    </div>
+                                    <div class="mb-3 col">
+                                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="mb-3 col">
+                                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                    </div>
+                                    <div class="mb-3 col">
+                                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="mb-3 col">
+                                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                    </div>
+                                    <div class="mb-3 col">
+                                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-8 col-md-12 col-sm-12">
                         <div class="grid-margin stretch-card ms-card">
                             <div class="card">
                               <div class="card-body">
@@ -110,28 +175,28 @@
                                         <td colspan="5"><i class="ms-code fa-solid fa-code"></i>Classe 75</td>
                                         <td colspan="1">15 Febbraio 2021</td>
                                         <td colspan="1">20%</td>
-                                        <td colspan="1"><span class="badge rounded-pill text-bg-success">Done</span></td>
+                                        <td colspan="1"><span class="badge rounded-pill text-bg-warning">Doing</span></td>
                                         <td colspan="1" class="ms-symbols"><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i></td>
                                       </tr>
                                       <tr>
                                         <td colspan="5"><i class="ms-code fa-solid fa-code"></i>Classe 75</td>
                                         <td colspan="1">15 Febbraio 2021</td>
                                         <td colspan="1">20%</td>
-                                        <td colspan="1"><span class="badge rounded-pill text-bg-success">Done</span></td>
+                                        <td colspan="1"><span class="badge rounded-pill text-bg-danger">Not Done</span></td>
                                         <td colspan="1" class="ms-symbols"><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i></td>
                                       </tr>
                                       <tr>
                                         <td colspan="5"><i class="ms-code fa-solid fa-code"></i>Classe 75</td>
                                         <td colspan="1">15 Febbraio 2021</td>
                                         <td colspan="1">20%</td>
-                                        <td colspan="1"><span class="badge rounded-pill text-bg-success">Done</span></td>
+                                        <td colspan="1"><span class="badge rounded-pill text-bg-danger">Not Done</span></td>
                                         <td colspan="1" class="ms-symbols"><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i></td>
                                       </tr>
                                       <tr>
                                         <td colspan="5"><i class="ms-code fa-solid fa-code"></i>Classe 75</td>
                                         <td colspan="1">15 Febbraio 2021</td>
                                         <td colspan="1">20%</td>
-                                        <td colspan="1"><span class="badge rounded-pill text-bg-success">Done</span></td>
+                                        <td colspan="1"><span class="badge rounded-pill text-bg-warning">Doing</span></td>
                                         <td colspan="1" class="ms-symbols"><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i></td>
                                       </tr>
                                     </tbody>
@@ -188,7 +253,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
                         <div class="grid-margin stretch-card ms-card">
                             <div class="card ms-todo">
                                 <div class="card-body">
@@ -218,8 +283,15 @@
                         </div>
                         <div class="card">
                             <div class="card-body">
-                                <div class="card-title">
-                                    <h4>Frequently Asked Questions</h4>
+                                <div class="ms-list">
+                                    <img class="img-fluid" src="img 2/stats.jpeg" alt="stats">
+                                    <h6>Utenti attivi</h6>
+                                    <span>Lista degli utenti attivi negli ultimi mesi</span>
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Gennaio: 1200</li>
+                                        <li class="list-group-item">Febbraio: 800</li>
+                                        <li class="list-group-item">Marzo: 600</li>
+                                      </ul>
                                 </div>
                             </div>
                         </div>
