@@ -47,7 +47,13 @@ header {
     width: 100px;
     height: 100vh;
     font-size: 12px;
-    background-image: url("/img 2/sidebar-bg.png");
+    background-image: url("/img2/sidebar-bg.png");
+}
+
+@media (max-width: 576px) {
+    .ms-menu {
+        width: auto;
+    }
 }
 
 .ms-menu i{
@@ -72,6 +78,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
     margin: 20px 0;
 }
 
